@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pizza Order</title>
+</head>
+<body>
+    <b>
+    <fieldset>
+        <legend align="center">PIZZA ORDER FORM </legend>
+        <fieldset>
+<legend>Delivery Address</legend>
+
+<table>
+<tr>
+<td>Full Name:</td>
+<td><input type="text" value="Full Name"></td>
+<td>Street Address:</td>
+<td><input type="text" value="Address"></td>
+</tr>
+
+<tr>
+<td>Phone:</td>
+<td><input type="text" value="Phone"></td>
+<td>Email:</td>
+<td><input type="email" value="Email"></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="text" value="Password"></td>
+</tr>
+</table>
+
+
+<br>
+
+<fieldset>
+<legend>Payment Information</legend>
+<tr>
+Card Type:
+<select>
+<option>Visa</option>
+<option>MasterCard</option>
+<option>Discover</option>
+</select>
+<td>Card Number:</td>
+<input type="text" name="Card Number">
+</tr>
+<p>
+name on card:
+<p><input type="text" name="name on card"></p>
+</p>
+
+
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Customize Your Pizza</legend>
+
+<table>
+<tr>
+<td>Pizza Size:</td>
+<td>
+<select>
+<option selected>Large</option>
+<option>Medium</option>
+<option>Small</option>
+</select>
+</td>
+
+<td>Quantity:</td>
+<td><input type="number"></td>
+</tr>
+</table>
+
+<br>
+
+Spices:
+<input type="checkbox"> Black pepper
+<input type="checkbox"> Bell peppers
+<input type="checkbox"> Mayonnaise
+
+<br><br>
+<tr>
+Other Requirements:<br>
+<textarea  rows="3" cols="40" placeholder="Any Other Requirements"></textarea>
+
+<br><br>
+
+Meat:
+<input type="radio" name="meat"> Fish
+<input type="radio" name="meat"> Cow
+<input type="radio" name="meat"> Chicken>
+
+</fieldset>
+<br>
+
+<input type="reset" value="Clear Order">
+<input type="submit" value="Place Order">
+
+</form>
+
+</body>
+</html>
